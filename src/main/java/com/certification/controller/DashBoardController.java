@@ -30,5 +30,7 @@ public class DashBoardController {
               return "redirect:login";
         m.addAttribute("dashBoardMessage", "Welcome to dash board!");
         return "dashboard";
+        
+        
     }
 }
